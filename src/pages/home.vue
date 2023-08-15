@@ -1,9 +1,9 @@
 <template>
-  <HomePage />
+  <Navbar />
 </template>
 
 <script setup lang="ts">
 
-import HomePage from './pages/home.vue'
+import Navbar from '../components/Navbar.vue'
 
 </script>

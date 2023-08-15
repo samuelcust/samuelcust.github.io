@@ -1,0 +1,13 @@
+/*
+    Open Sans (400, 700)
+    Source Code Pro (400, 700)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply bg-background font-sans font-normal antialiased text-on-background;
+}

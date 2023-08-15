@@ -24,7 +24,7 @@ export default {
       'on-background': '#F7F3F3',
     },
     fontFamily: {
-      sans: defaultTheme.fontFamily.sans,
+      sans: ['"Open Sans"', ...defaultTheme.fontFamily.sans],
       serif: defaultTheme.fontFamily.serif,
       mono: ['"Source Code Pro"', ...defaultTheme.fontFamily.mono],
     },
